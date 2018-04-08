@@ -1,0 +1,47 @@
+{
+  "basics":{
+    "name":"pooji",
+    "photo":"pooji.png",
+    "email":"sreepoojitha555@gmail.com",
+    "mobileno":"9678456562",
+    "address":"SVIT college"
+  },
+  "career":{
+    "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+},
+"education":[
+  {
+    "degree":"B-Tech",
+    "institute":"SVIT,Anantapur",
+    "data":["2016-20","75%"]
+  },
+  {
+    "degree":"Intermediate",
+    "institute":"Narayana,Anantapur",
+    "data":["2014-16","79%"]
+  },
+  {
+    "degree":"SSC",
+    "institute":"Radha school of learning,Anantapur",
+    "data":["2013-14","88%"]
+  }
+],
+"skills":[
+  {
+    "sname":"Languages",
+    "sdata":["C","C++","Java"]
+  },
+  {
+    "sname":"DataBases",
+    "sdata":["Oracle","MySql","MySqLite","PDO"]
+  },
+  {
+    "sname":"Web Technologies",
+    "sdata":["HTML","XML","CSS","PHP","JavaScript"]
+  },
+  {
+    "sname":"Operating Systems",
+    "sdata":["Windows","Linux","Unix"]
+  }
+]
+}

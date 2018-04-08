@@ -1,0 +1,110 @@
+.main{
+  background-color: #ddd;
+  border: 1px solid orange;
+  display: flex;
+  flex-direction: row;
+}
+.profile{
+  padding: 2%;
+  margin: 2%;
+  background-color: #fff;
+  border: 2px solid blue;
+  width: 20%;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 10%;
+    }
+  .profile img{
+    width: 100px;
+      border-radius: 50%;
+      border: 3px solid black;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+      .content{
+        padding: 2%;
+        margin: 2%;
+        width: 80%;
+        background-color: #fff;
+        border: 2px solid violet;
+        border-radius: 20%;
+    }
+    @media only screen and (max-width:480px){
+
+      .main{
+        background-color: #ddd;
+        border: 1px solid orange;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      .profile{
+        padding: 2%;
+        margin: 2%;
+        background-color: #fff;
+        border: 2px solid blue;
+        width: 100%;
+        font-size: 25px;
+        text-align: left;
+        border-radius: 10%;
+
+          }
+        .profile img{
+          width: 200px;
+          border-radius: 50%;
+          border: 2px solid green;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          background-color: skyblue;
+          }
+           .content{
+              padding: 2%;
+              margin: 2%;
+              width: 100%;
+              background-color: #fff;
+              border: 2px solid violet;
+              border-radius: 20%;
+          }
+
+    }
+@media only screen and (min-width:481px) and (max-width:769px){
+  .main{
+    background-color: #ddd;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .profile{
+    padding: 2%;
+    margin: 2%;
+    background-color: violet;
+    border: 2px solid blue;
+    width: 100%;
+    font-size: 35px;
+    text-align: left;
+    border-radius: 10%;
+
+      }
+    .profile img{
+      width: 200px;
+      border-radius: 50%;
+      border: 2px solid green;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      }
+       .content{
+          padding: 2%;
+          margin: 2%;
+          width: 100%;
+          background-color: green;
+          border: 2px solid violet;
+          border-radius: 20%;
+      }
+
+}
+
+}
